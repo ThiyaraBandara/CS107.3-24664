@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab
+{
+    internal class CalculateValues
+    {
+        public double add(double no1, double no2)
+        {
+            return no1 + no2;
+        }
+
+        public double sub(double no1, double no2)
+        {
+            return no1 - no2;
+        }
+
+        public double multi(double no1, double no2)
+        {
+            return no1 * no2;
+        }
+
+        public double div(double no1, double no2)
+        {
+            return no1 / no2;
+        }
+    }
+}
